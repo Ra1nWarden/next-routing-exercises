@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function ScreenSaverExercise() {
   return (
-    <>
+    <main>
       <p>Choose your color:</p>
       <ul>
         <li>
@@ -19,7 +19,7 @@ function ScreenSaverExercise() {
           <Link href="/exercises/01-screensaver/blueviolet">Blue Violet</Link>
         </li>
       </ul>
-    </>
+    </main>
   );
 }
 
